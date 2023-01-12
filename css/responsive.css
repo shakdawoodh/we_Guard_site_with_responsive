@@ -1,0 +1,470 @@
+/* RESPONSIVE SECTION STARTS */
+
+/* media queries  */
+@media (max-width:1440px){
+  .navbar{
+    display: none ;
+  }
+  .wegr_navbar_section {
+    margin: 8px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wegr_right_side_content img {
+    width: 580px;
+}
+}
+@media (max-width:1024px) {
+.navbar{
+  display: none ;
+}
+.wegr_navbar_section {
+  margin: 8px auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wegr_choose_container img {
+  width: 100%;
+  margin-top: 8px;
+}
+.wegr_right_side_content img {
+    width: 540px;
+}
+}
+
+@media (max-width:768px) {
+  .navbar{
+    display:unset ;
+  }
+  .wegr_header_section {
+    display: none;
+  }
+
+  .navbar .wegr_logo img {
+    width: 290px;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .navbar-nav li {
+    font-size: 22px;
+  }
+
+  .container_logo {
+    display: none;
+  }
+
+  .wegr_navbar_section .wegr_link,
+  .wegr_navbar_section .wegr_link_button {
+    display: none;
+  }
+
+  .wegr_right_side_content {
+    display: none;
+  }
+
+  .wegr_left_side_content {
+    width: 100%;
+  }
+
+  .wegr_landing_section {
+    width: 95%;
+    margin: 8px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wegr_left_side_content p {
+    font-size:24px;
+    padding: 16px 0px;
+    line-height:32px;
+    margin: 0px 0px 8px 0px;
+}
+.wegr_card_container {
+  width:45%;
+  height: 150px;
+}
+.wegr_choose_left_side {
+display: none;
+}
+.wegr_choose_container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+.wegr_choose_right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+  color: var(--white-color);
+  margin-top: 15px;
+}
+.wegr_choose_right_side h2 {
+  margin: 16px 0px;
+  font-size: 32px;
+  text-align:center;
+}
+.wegr_choose_right_side p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+.wegr_choose_right_side .wegr_Touch_button {
+  text-align: center;
+  margin-top: 10px;
+}
+.wegr_choose_section {
+  display: flex;
+  background-color: var(--bg-color);
+  height: 340px;
+  margin-top: -115px;
+}
+.wegr_choose_right_side .wegr_Touch_button a {
+  width: 64px;
+  font-size: 20px;
+  color: var(--white-color);
+  border-radius: 6px;
+  padding: 5px 15px;
+  background-image: var(--button-color);
+  text-decoration: none;
+}
+.wegr_services {
+  width:100%;
+  margin: 0 auto;
+}
+}
+
+@media (max-width:450px) {
+  .gentral_port {
+    display: none;
+  }
+
+  /* HEADER SECTION STARTS */
+  .navbar .wegr_logo img {
+    width: 190px;
+  }
+  .wegr_choose_right_side .wegr_Touch_button a {
+    width: 64px;
+    font-size:16px;
+    color: var(--white-color);
+    border-radius: 6px;
+    padding: 5px 15px;
+    background-image: var(--button-color);
+    text-decoration: none;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .wegr_social_icon a {
+    padding-right: 4px;
+    font-size: 12px;
+    color: var(--white-color);
+    text-decoration: none;
+  }
+
+  .wegr_contact_info a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--white-color);
+  }
+
+  .wegr_header_section {
+    display: none;
+  }
+
+  /* HEADER SECTION END */
+  /* NAVBAR SECTION STARTS */
+  .navbar-nav li {
+    font-size: 16px;
+  }
+
+  .wegr_navbar_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wegr_navbar_section .container_logo {
+    display: none;
+  }
+
+  .wegr_link_button a {
+    display: none;
+  }
+
+  .wegr_logo img {
+    width: 190px;
+  }
+
+  .wegr_navbar_section .wegr_link a {
+    display: none;
+  }
+
+  /* NAVBAR SECTION END */
+
+  /* LANDING SECTON STARTS */
+  .wegr_landing_section {
+    width: 95%;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .wegr_left_side_content {
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+
+  .wegr_left_side_content h1 {
+    font-size: 32px;
+    padding: 0px 0px;
+    line-height: 34px;
+  }
+
+  .wegr_left_side_content p {
+    font-size: 16px;
+    padding: 16px 0px;
+    line-height: 20px;
+    margin: 0px 0px 8px 0px;
+  }
+
+  .wegr_right_side_content img {
+    display: none;
+  }
+
+  .wegr_left_side_content a {
+    padding: 8px 16px;
+    font-size: 12px;
+    background-image: var(--button-color);
+    color: var(--white-color);
+    text-decoration: none;
+    border-radius: 6px;
+  }
+
+  /* LANDING SECTION END */
+
+  /* SERVICES SECTION START */
+
+  .wegr_services {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .wegr_card_container {
+    width: 95%;
+    height: 150px;
+  }
+
+  .wegr_services_heading .bold_font {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: var(--boldfont-color);
+  }
+
+  .wegr_services_heading h3 {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+
+  /* SERVICES SECTION END */
+
+  /* WHY CHOOSE US SECTION STARTS */
+  .wegr_choose_container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wegr_choose_left_side {
+    display: none;
+  }
+
+  .wegr_choose_right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: var(--white-color);
+    margin-top: 0px;
+  }
+
+  .wegr_choose_right_side h2 {
+    margin: 8px 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .wegr_choose_right_side p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 20px;
+  }
+
+  /* WHY CHOOSE US SECTION END */
+  /* ACHIEVMENTS SECTION STARTS */
+  .wegr_achievments {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wegr_achievments .wegr_services_heading {
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .wegr_achievments .wegr_services_heading .bold_font {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    color: var(--boldfont-color);
+  }
+
+  .wegr_achievments .wegr_services_heading h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .wegr_achievments_card {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .achievments_card {
+    margin: 8px auto;
+    width: 80%;
+    height: 140px;
+  }
+
+  /* ACHIEVMENTS SECTION end */
+
+  /* TESTIMONEAL SECTION STARTS */
+
+
+  .wegr_testimonial_section .wegr_services_heading .bold_font {
+    font-weight: 900;
+    font-size: 32px;
+    color: var(--boldfont-color);
+  }
+
+  .wegr_testimonial_section .wegr_services_heading h3 {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+
+  .wegr_testimonial_section {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .testimonial_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .wegr_testimonial_section .carosel_card {
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0px 0px 7px 0px #c1c1c1;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .res_view {
+    display: unset;
+  }
+
+  .caroosel_user_section {
+    display: flex;
+  }
+
+  /* TESTIMONEAL SECTION END */
+
+  /* FOOTER SECTION */
+  .wegr_service_link_section {
+    display: none;
+  }
+
+  .footer_container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .wegr_address_section {
+    width: 50%;
+    padding-top: 32px;
+  }
+
+  .wegr_nav_link_section {
+    width: 50%;
+    padding-top: 32px;
+  }
+
+  .wegr_overflow_container {
+    height: 340px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  /* ACHIEVEMENTS SECTION START */
+  .wegr_achievments_card .achievments_card .t_start {
+    text-align: center;
+  }
+
+  /* ACHIEVEMENTS SECTION END */
+}
+
+@media (max-width:374px) {
+  .wegr_overflow_container {
+    height: 390px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .wegr_choose_section {
+    display: flex;
+    background-color: var(--bg-color);
+    height: 390px;
+    margin-top: -115px;
+  }
+}
+
+/* RESPONSIVE SECTION END */

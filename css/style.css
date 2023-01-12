@@ -1,0 +1,1039 @@
+/* .wegr_header_section {
+    height:30px;
+  background-color: #ff3963;
+  background-image: linear-gradient(160deg, #ff3963 0%, #ff6338 99%);
+} */
+
+body {
+  --button-color: linear-gradient(90deg, #ff3963 0%, #ff6338 99%);
+  --header-color: #585858;
+  --white-color: #fff;
+  --black-color: #000;
+  --boldfont-color: #eeeeee;
+  --line-color: #ff6338;
+  --bg-color: #1b1717;
+  --icon-color: #b2b2b2;
+  --comma_color: #a1a1a1;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.t_start {
+  text-align: start;
+}
+
+.t_center {
+  text-align: center;
+}
+
+.t_end {
+  text-align: end;
+}
+
+.m_5 {
+  margin: 5px;
+}
+
+.m_10 {
+  margin: 10px;
+}
+
+.m_15 {
+  margin: 15px;
+}
+
+.m_25 {
+  margin: 25px;
+}
+
+.m_top_15 {
+  margin-top: 15px;
+}
+
+.m_top_60 {
+  margin-top: 30px;
+}
+
+.m_top_40 {
+  margin-top: 40px;
+}
+
+.m_b_10 {
+  margin-bottom: 10px;
+}
+
+.f_10 {
+  font-size: 10px;
+}
+
+.f_16 {
+  font-size: 16px;
+}
+
+.f_20 {
+  font-size: 20px;
+}
+
+.f_25 {
+  font-size: 25px;
+}
+
+.f_30 {
+  font-size: 30px;
+}
+
+.f_32 {
+  font-size: 32px;
+}
+
+.f_40 {
+  font-size: 40px;
+}
+
+.res_view{
+  display: none;
+}
+
+/* HEADER SECTION START */
+.wegr_header_section {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: var(--header-color);
+}
+
+.wegr_header_conainer {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wegr_social_icon a {
+  padding-right: 8px;
+  font-size: 16px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.wegr_contact_info a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.wegr_contact_info i {
+  padding: 5px;
+}
+
+/* HEADER SECTION END */
+
+/* NAVBAR SECTION STARTS */
+.wegr_navbar_section {
+  margin: 8px 8px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wegr_logo img {
+  width: 190px;
+}
+
+.wegr_link a {
+  text-decoration: none;
+  color: var(--black-color);
+  padding: 0px 16px;
+  font-size: 16px;
+  transition: 0.1s;
+}
+
+.wegr_link a:hover {
+  text-decoration: none;
+  color: var(--line-color);
+  padding: 0px 16px;
+  font-size: 16px;
+  transition: 0.1s;
+}
+
+.wegr_link_button a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--white-color);
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-image: var(--button-color);
+}
+.container-fluid{
+  padding: 0px;
+}
+.navbar-toggler {
+  margin-right: 16px;
+  padding: 0rem 0rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar {
+  margin-bottom:32px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* NAVBAR SECTION END */
+/* LANDING_SECTION STARTS */
+.wegr_landing_section {
+  width: 80%;
+  margin: 8px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wegr_left_side_content a {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-image: var(--button-color);
+  color: var(--white-color);
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.wegr_left_side_content {
+  width: 50%;
+  align-items: center;
+  display: flex;
+}
+
+.wegr_left_side_content h1 {
+  font-size: 40px;
+  padding: 16px 0px;
+  line-height: 40px;
+}
+
+.wegr_left_side_content p {
+  font-size: 16px;
+  padding: 16px 0px;
+  line-height: 18px;
+  margin: 0px 0px 8px 0px;
+}
+
+.wegr_right_side_content {
+  width: 50%;
+  overflow: hidden;
+}
+
+.wegr_right_side_content img {
+  width: 540px;
+}
+
+/* LANDING_SECTION END */
+
+/* SERVICE SECTION STARTS */
+.wegr_services {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wegr_services_heading {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.wegr_services_heading .bold_font {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--boldfont-color);
+}
+
+.wegr_services_heading h3 {
+  font-size: 32px;
+  margin-top: -20px;
+}
+
+.wegr_services_heading .font_underline {
+  margin: 6px auto;
+  background-color: var(--line-color);
+  width: 40px;
+  height: 2px;
+}
+
+/* SERVICE SECTION END */
+/* SERVICE CARD SECTION STARTS */
+
+/* IMAGE SPRITES START */
+
+#navlist li,
+#navlist span {
+  height: 44px;
+  display: block;
+}
+
+#Property {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -1px 0px;
+  transition: all 0.5s ease;
+}
+
+.box1:hover #Property {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -44px 0px;
+  transition: all 0.8s ease;
+}
+
+#Registration {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -88px 0px;
+  transition: all 0.5s ease;
+}
+
+.box2:hover #Registration {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -132px 0px;
+  transition: all 0.8s ease;
+}
+
+#Revenue {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -176px 0px;
+  transition: all 0.5s ease;
+}
+
+.box3:hover #Revenue {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -220px 0px;
+  transition: all 0.8s ease;
+}
+
+#Documentation {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -264px 0px;
+  transition: all 0.5s ease;
+}
+
+.box4:hover #Documentation {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -308px 0px;
+  transition: all 0.8s ease;
+}
+
+#NOC {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -354px 0px;
+  transition: all 0.5s ease;
+}
+
+.box5:hover #NOC {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -398px 0px;
+  transition: all 0.8s ease;
+}
+
+#Maintenance {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -1px 44px;
+  transition: all 0.5s ease;
+}
+
+.box6:hover #Maintenance {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -44px 44px;
+  transition: all 0.8s ease;
+}
+
+#investment {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -88px 44px;
+  transition: all 0.5s ease;
+}
+
+.box7:hover #investment {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -132px 44px;
+  transition: all 0.8s ease;
+}
+
+#Venture {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -176px 44px;
+  transition: all 0.5s ease;
+}
+
+.box8:hover #Venture {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -220px 44px;
+  transition: all 0.8s ease;
+}
+
+#Intellectual {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -264px 44px;
+  transition: all 0.8s ease;
+}
+
+.box9:hover #Intellectual {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -308px 44px;
+  transition: all 0.8s ease;
+}
+
+#litigation {
+  margin: 0 auto;
+  left: 0px;
+  width: 42px;
+  background: url(/img/Sprite_image.png) -352px 44px;
+  transition: all 0.5s ease;
+}
+
+.box10:hover #litigation {
+  background: url(/img/Sprite_image.png) -396px 44px;
+  transition: all 0.8s ease;
+}
+
+/* IMAGE SPRITES END */
+.wegr_services_cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.wegr_card_container {
+  width: 20%;
+  height:200px;
+}
+
+.wegr_card_heading p {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box1:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box2:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box3:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box4:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box5:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box6:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box7 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box7:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box8:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box9 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box9:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.box10 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.box10:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: var(--white-color);
+}
+
+.wegr_card_container .wegr_icon {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.wegr_card_container .wegr_icon i {
+  font-size: 25px;
+}
+
+.wegr_card_container .wegr_card_heading p {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* SERVICE CARD SECTION END */
+
+/* CHOOSE US SECTION START */
+
+.wegr_choose_section {
+  display: flex;
+  background-color: var(--bg-color);
+  height: 340px;
+  margin-top: -115px;
+}
+
+.wegr_choose_container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wegr_choose_container img {
+  width: 70%;
+  margin-top: 8px;
+}
+
+.wegr_choose_left_side {
+  overflow: hidden;
+  width: 50%;
+  color: var(--white-color);
+}
+
+.wegr_choose_right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  color: var(--white-color);
+  margin-top: 15px;
+}
+
+.wegr_choose_right_side h2 {
+  margin: 16px 0px;
+  font-size: 32px;
+  text-align: end;
+}
+
+.wegr_choose_right_side p {
+  font-size: 16px;
+  text-align: end;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+
+.wegr_choose_right_side p span {
+  text-decoration: underline;
+}
+
+.wegr_choose_right_side .wegr_Touch_button {
+  text-align: end;
+  margin-top: 10px;
+}
+
+.wegr_choose_right_side .wegr_Touch_button a {
+  width: 64px;
+  font-size: 16px;
+  color: var(--white-color);
+  border-radius: 6px;
+  padding: 5px 15px;
+  background-image: var(--button-color);
+  text-decoration: none;
+}
+
+/* CHOOSE US SECTION END */
+
+/* ACHIEVMENTS SECTION STARTS */
+.wegr_achievments {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wegr_achievments .wegr_services_heading {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.wegr_achievments .wegr_services_heading .bold_font {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  color: var(--boldfont-color);
+}
+
+.wegr_achievments .wegr_services_heading h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.wegr_achievments .wegr_services_heading .font_underline {
+  margin: 6px auto;
+  background-color: var(--line-color);
+  width: 40px;
+  height: 2px;
+}
+
+.wegr_achievments_card {
+  display: flex;
+  gap: 10px;
+}
+
+.achievments_card {
+  margin: 40px 0px;
+  width: 25%;
+  height: 140px;
+}
+
+.achievments_card i {
+  opacity: 50%;
+}
+
+.wegr_card1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.wegr_card1:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+.wegr_card2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.wegr_card2:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+.wegr_card3 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.wegr_card3:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+.wegr_card4 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  background: linear-gradient(90deg, #ff3963 0%, #ff6338 99%) no-repeat calc(200% - var(--p, 0%)) 118% / 200% var(--p, 1.5em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.wegr_card4:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+/* ACHIEVMENTS SECTION END */
+
+/* TESTIMONEAL SECTION STARTS  */
+
+.wegr_testimonial_section .wegr_services_heading {
+  /* margin-top: 45px; */
+  text-align: center;
+}
+
+.wegr_testimonial_section .wegr_services_heading .bold_font {
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--boldfont-color);
+}
+
+.wegr_testimonial_section .wegr_services_heading h3 {
+  font-size: 32px;
+  margin-top: -20px;
+}
+
+.wegr_testimonial_section .wegr_services_heading .font_underline {
+  margin: 6px auto;
+  background-color: var(--line-color);
+  width: 40px;
+  height: 2px;
+}
+
+.wegr_testimonial_section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wegr_testimonial_section .card_container {
+  display: flex;
+  /* gap: 10px; */
+}
+
+.wegr_testimonial_section .carosel_card {
+  width: 50%;
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+}
+
+.wegr_testimonial_section .caroosel_user_section {
+  display: flex;
+  /* align-items: center; */
+}
+
+.carosel_card .carosel_qouts p {
+  font-size: 16px;
+}
+
+.carosel_card .user_name h3 {
+  font-size: 20px;
+}
+
+.carosel_card .user_name p {
+  font-size: 16px;
+}
+
+.user_name p {
+  color: var(--comma_color);
+}
+
+.caroosel_user_section .img {
+  margin: 10px 10px 10px 10px;
+}
+
+.caroosel_user_section img {
+  width: 50px;
+}
+
+.carousel-indicators {
+  margin-bottom: -30px;
+}
+
+.carousel-indicators .light {
+  background-color: var(--comma_color);
+}
+
+.carousel-indicators .active {
+  background-color: var(--line-color);
+}
+
+/* TESTIMONEAL SECTION END  */
+
+/* FOOTER SECTION STARTS */
+.wegr_footer_section {
+  margin-top: 62px;
+  background-color: var(--bg-color);
+  /* height: 340px; */
+}
+
+.wegr_logo_section img {
+  width: 190px;
+}
+
+.footer_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.wegr_address_section {
+  width: 33.33%;
+  padding-top: 32px;
+}
+
+.wegr_address_content_section p {
+  width: 180px;
+  color: var(--white-color);
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.wegr_address_content_section span {
+  display: inline-block;
+  padding-top: 16px;
+}
+
+.wegr_footer_icons {
+  margin-top: 20px;
+}
+
+.wegr_service_link_section {
+  width: 33.33%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  overflow: hidden;
+}
+
+.wegr_service_link_section ul {
+  margin: 0 auto;
+  width: 500px;
+  color: var(--white-color);
+  list-style: none;
+  line-height: 32px;
+}
+
+.wegr_service_link_section li a i {
+  padding-right: 8px;
+}
+
+.wegr_nav_link_section {
+  width: 33.33%;
+  padding-top: 32px;
+}
+
+.wegr_service_link_section li a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.wegr_service_link_section li a:hover {
+  color: var(--line-color);
+  transition: all 0.5s ease;
+}
+
+.wegr_nav_link_section .wegr_link {
+  display: flex;
+  flex-direction: column;
+}
+
+.wegr_nav_link_section .wegr_link a {
+  color: var(--white-color);
+  line-height: 32px;
+  text-align: end;
+  text-decoration: underline;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.wegr_nav_link_section .wegr_link a:hover {
+  color: var(--line-color);
+  transition: all 0.5s ease;
+}
+
+.wegr_pwr_footer {
+  text-align: center;
+  background-color: var(--black-color);
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wegr_pwr_footer a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+/* FOOTER SECTION END */
