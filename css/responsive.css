@@ -5,6 +5,9 @@
   .navbar{
     display: none ;
   }
+  .wegr_logo img {
+    width: 228px;
+}
   .wegr_navbar_section {
     margin: 8px auto;
     width: 80%;
@@ -17,6 +20,9 @@
 }
 }
 @media (max-width:1024px) {
+  .wegr_logo img {
+    width: 228px;
+}
 .navbar{
   display: none ;
 }
@@ -37,6 +43,7 @@
 }
 
 @media (max-width:768px) {
+  
   .navbar{
     display:unset ;
   }
@@ -44,9 +51,7 @@
     display: none;
   }
 
-  .navbar .wegr_logo img {
-    width: 290px;
-  }
+
 
   .navbar-toggler-icon {
     display: inline-block;

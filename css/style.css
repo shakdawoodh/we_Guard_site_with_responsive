@@ -1,8 +1,3 @@
-/* .wegr_header_section {
-    height:30px;
-  background-color: #ff3963;
-  background-image: linear-gradient(160deg, #ff3963 0%, #ff6338 99%);
-} */
 
 body {
   --button-color: linear-gradient(90deg, #ff3963 0%, #ff6338 99%);
@@ -139,7 +134,7 @@ body {
 
 
 .wegr_logo img {
-  width: 190px;
+  width:280px;
 }
 
 .wegr_link a {
