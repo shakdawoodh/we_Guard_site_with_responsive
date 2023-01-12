@@ -291,7 +291,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -1px 0px;
+  background: url(../img/Sprite_image.png) -1px 0px;
   transition: all 0.5s ease;
 }
 
@@ -299,7 +299,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -44px 0px;
+  background: url(../img/Sprite_image.png) -44px 0px;
   transition: all 0.8s ease;
 }
 
@@ -307,7 +307,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -88px 0px;
+  background: url(../img/Sprite_image.png) -88px 0px;
   transition: all 0.5s ease;
 }
 
@@ -315,7 +315,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -132px 0px;
+  background: url(../img/Sprite_image.png) -132px 0px;
   transition: all 0.8s ease;
 }
 
@@ -323,7 +323,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -176px 0px;
+  background: url(../img/Sprite_image.png) -176px 0px;
   transition: all 0.5s ease;
 }
 
@@ -331,7 +331,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -220px 0px;
+  background: url(../img/Sprite_image.png) -220px 0px;
   transition: all 0.8s ease;
 }
 
@@ -339,7 +339,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -264px 0px;
+  background: url(../img/Sprite_image.png) -264px 0px;
   transition: all 0.5s ease;
 }
 
@@ -347,7 +347,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -308px 0px;
+  background: url(../img/Sprite_image.png) -308px 0px;
   transition: all 0.8s ease;
 }
 
@@ -355,7 +355,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -354px 0px;
+  background: url(../img/Sprite_image.png) -354px 0px;
   transition: all 0.5s ease;
 }
 
@@ -363,7 +363,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -398px 0px;
+  background: url(../img/Sprite_image.png) -398px 0px;
   transition: all 0.8s ease;
 }
 
@@ -371,7 +371,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -1px 44px;
+  background: url(../img/Sprite_image.png) -1px 44px;
   transition: all 0.5s ease;
 }
 
@@ -379,7 +379,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -44px 44px;
+  background: url(../img/Sprite_image.png) -44px 44px;
   transition: all 0.8s ease;
 }
 
@@ -387,7 +387,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -88px 44px;
+  background: url(../img/Sprite_image.png) -88px 44px;
   transition: all 0.5s ease;
 }
 
@@ -395,7 +395,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -132px 44px;
+  background: url(../img/Sprite_image.png) -132px 44px;
   transition: all 0.8s ease;
 }
 
@@ -403,7 +403,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -176px 44px;
+  background: url(../img/Sprite_image.png) -176px 44px;
   transition: all 0.5s ease;
 }
 
@@ -411,7 +411,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -220px 44px;
+  background: url(../img/Sprite_image.png) -220px 44px;
   transition: all 0.8s ease;
 }
 
@@ -419,7 +419,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -264px 44px;
+  background: url(../img/Sprite_image.png) -264px 44px;
   transition: all 0.8s ease;
 }
 
@@ -427,7 +427,7 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -308px 44px;
+  background: url(../img/Sprite_image.png) -308px 44px;
   transition: all 0.8s ease;
 }
 
@@ -435,12 +435,12 @@ body {
   margin: 0 auto;
   left: 0px;
   width: 42px;
-  background: url(/img/Sprite_image.png) -352px 44px;
+  background: url(../img/Sprite_image.png) -352px 44px;
   transition: all 0.5s ease;
 }
 
 .box10:hover #litigation {
-  background: url(/img/Sprite_image.png) -396px 44px;
+  background: url(../img/Sprite_image.png) -396px 44px;
   transition: all 0.8s ease;
 }
 
