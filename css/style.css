@@ -126,7 +126,7 @@ body {
 /* NAVBAR SECTION STARTS */
 .wegr_navbar_section {
   margin: 8px 8px;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;

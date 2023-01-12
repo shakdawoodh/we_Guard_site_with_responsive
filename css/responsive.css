@@ -41,7 +41,12 @@
     width: 540px;
 }
 }
+@media (max-width:1023px){
+    .wegr_logo img {
+    width: 228px;
+}
 
+}
 @media (max-width:768px) {
   
   .navbar{
