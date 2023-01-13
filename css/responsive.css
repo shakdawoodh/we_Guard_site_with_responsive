@@ -3,9 +3,10 @@
   .navbar {
     display: none;
   }
+
   .wegr_right_side_content img {
     width: 600px;
-}
+  }
 }
 
 /* media queries  */
@@ -21,6 +22,7 @@
     font-size: 16px;
     transition: 0.1s;
   }
+
   .wegr_logo img {
     width: 228px;
   }
@@ -46,9 +48,11 @@
   .navbar {
     display: none;
   }
-.wegr_logo {
-  width: 23.33%;
-}
+
+  .wegr_logo {
+    width: 23.33%;
+  }
+
   .wegr_navbar_section {
     margin: 8px auto;
     width: 82%;
@@ -82,8 +86,9 @@
 
 }
 
-@media (max-width:768px) {
 
+@media (max-width:768px) {
+/* HOME PAGE SECTION STARTS */
   .navbar {
     display: unset;
   }
@@ -204,9 +209,13 @@
     width: 100%;
     margin: 0 auto;
   }
+  /* HOME PAGE SECTION END */
 }
 
 @media (max-width:450px) {
+
+  /* HOME PAGE SECCTION START */
+
   .gentral_port {
     display: none;
   }
@@ -508,6 +517,27 @@
   }
 
   /* ACHIEVEMENTS SECTION END */
+  
+  /* CONTACT PAGE SECTION START */
+ 
+  .wegr_address_card{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #131313; */
+  }
+  .container_box .card_box{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  /* CONTACT PAGE SECTION END */
 }
 
 @media (max-width:374px) {
@@ -524,6 +554,30 @@
     height: 390px;
     margin-top: -115px;
   }
+
+  /* HOME PAGE SECCTION END */
+
+  /* CONTACT PAGE SECTION START */
+ 
+  .wegr_address_card{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #131313; */
+  }
+  .container_box .card_box{
+    position: relative;
+    width: 310px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  /* CONTACT PAGE SECTION END */
+
 }
 
 /* RESPONSIVE SECTION END */
