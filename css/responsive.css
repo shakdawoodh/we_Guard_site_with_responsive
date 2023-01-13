@@ -3,6 +3,9 @@
   .navbar {
     display: none;
   }
+  .wegr_right_side_content img {
+    width: 600px;
+}
 }
 
 /* media queries  */
@@ -10,6 +13,7 @@
   .navbar {
     display: none;
   }
+
   .wegr_link a {
     text-decoration: none;
     color: var(--black-color);
