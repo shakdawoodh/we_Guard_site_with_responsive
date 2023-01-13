@@ -1,12 +1,49 @@
 /* RESPONSIVE SECTION STARTS */
+@media (min-width:1440px) {
+  .navbar {
+    display: none;
+  }
+}
 
 /* media queries  */
-@media (max-width:1440px){
-  .navbar{
-    display: none ;
+@media (max-width:1440px) {
+  .navbar {
+    display: none;
+  }
+  .wegr_link a {
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 0px 4px;
+    font-size: 16px;
+    transition: 0.1s;
   }
   .wegr_logo img {
     width: 228px;
+  }
+
+  .wegr_navbar_section {
+    margin: 8px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wegr_right_side_content img {
+    width: 580px;
+  }
+}
+
+@media (max-width:1024px) {
+  .wegr_logo img {
+    width: 228px;
+  }
+
+  .navbar {
+    display: none;
+  }
+.wegr_logo {
+  width: 23.33%;
 }
   .wegr_navbar_section {
     margin: 8px auto;
@@ -15,43 +52,38 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .wegr_choose_container img {
+    width: 100%;
+    margin-top: 8px;
+  }
+
   .wegr_right_side_content img {
-    width: 580px;
-}
-}
-@media (max-width:1024px) {
-  .wegr_logo img {
-    width: 228px;
-}
-.navbar{
-  display: none ;
-}
-.wegr_navbar_section {
-  margin: 8px auto;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.wegr_choose_container img {
-  width: 100%;
-  margin-top: 8px;
-}
-.wegr_right_side_content img {
     width: 540px;
-}
-}
-@media (max-width:1023px){
-    .wegr_logo img {
-    width: 228px;
+  }
+
+  .wegr_link a {
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 0px 4px;
+    font-size: 16px;
+    transition: 0.1s;
+  }
 }
 
-}
-@media (max-width:768px) {
-  
-  .navbar{
-    display:unset ;
+@media (max-width:1023px) {
+  .wegr_logo img {
+    width: 200px;
   }
+
+}
+
+@media (max-width:768px) {
+
+  .navbar {
+    display: unset;
+  }
+
   .wegr_header_section {
     display: none;
   }
@@ -97,67 +129,77 @@
   }
 
   .wegr_left_side_content p {
-    font-size:24px;
+    font-size: 24px;
     padding: 16px 0px;
-    line-height:32px;
+    line-height: 32px;
     margin: 0px 0px 8px 0px;
-}
-.wegr_card_container {
-  width:45%;
-  height: 150px;
-}
-.wegr_choose_left_side {
-display: none;
-}
-.wegr_choose_container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: 0 auto;
-}
-.wegr_choose_right_side {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width:100%;
-  color: var(--white-color);
-  margin-top: 15px;
-}
-.wegr_choose_right_side h2 {
-  margin: 16px 0px;
-  font-size: 32px;
-  text-align:center;
-}
-.wegr_choose_right_side p {
-  font-size: 20px;
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 16px;
-  line-height: 22px;
-}
-.wegr_choose_right_side .wegr_Touch_button {
-  text-align: center;
-  margin-top: 10px;
-}
-.wegr_choose_section {
-  display: flex;
-  background-color: var(--bg-color);
-  height: 340px;
-  margin-top: -115px;
-}
-.wegr_choose_right_side .wegr_Touch_button a {
-  width: 64px;
-  font-size: 20px;
-  color: var(--white-color);
-  border-radius: 6px;
-  padding: 5px 15px;
-  background-image: var(--button-color);
-  text-decoration: none;
-}
-.wegr_services {
-  width:100%;
-  margin: 0 auto;
-}
+  }
+
+  .wegr_card_container {
+    width: 45%;
+    height: 150px;
+  }
+
+  .wegr_choose_left_side {
+    display: none;
+  }
+
+  .wegr_choose_container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wegr_choose_right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: var(--white-color);
+    margin-top: 15px;
+  }
+
+  .wegr_choose_right_side h2 {
+    margin: 16px 0px;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .wegr_choose_right_side p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 22px;
+  }
+
+  .wegr_choose_right_side .wegr_Touch_button {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .wegr_choose_section {
+    display: flex;
+    background-color: var(--bg-color);
+    height: 340px;
+    margin-top: -115px;
+  }
+
+  .wegr_choose_right_side .wegr_Touch_button a {
+    width: 64px;
+    font-size: 20px;
+    color: var(--white-color);
+    border-radius: 6px;
+    padding: 5px 15px;
+    background-image: var(--button-color);
+    text-decoration: none;
+  }
+
+  .wegr_services {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width:450px) {
@@ -169,15 +211,17 @@ display: none;
   .navbar .wegr_logo img {
     width: 190px;
   }
+
   .wegr_choose_right_side .wegr_Touch_button a {
     width: 64px;
-    font-size:16px;
+    font-size: 16px;
     color: var(--white-color);
     border-radius: 6px;
     padding: 5px 15px;
     background-image: var(--button-color);
     text-decoration: none;
   }
+
   .navbar-toggler-icon {
     display: inline-block;
     width: 1.5em;
