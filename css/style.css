@@ -1086,7 +1086,6 @@ body {
 }
 
 .container_box .card_box:after{
-  /* content: 'Contact'; */
   position: absolute;
   top: 30%;
   left: -20%;
@@ -1192,31 +1191,6 @@ body {
   color: #111;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.container_box .card_box .contentBx .size span:hover{
-  background: #9bdc28;
-}
-
-.container_box .card_box .contentBx .color span{
-  width: 20px;
-  height: 20px;
-  background: #ff0;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.container_box .card_box .contentBx .color span:nth-child(2){
-  background: #9bdc28;
-}
-
-.container_box .card_box .contentBx .color span:nth-child(3){
-  background: #03a9f4;
-}
-
-.container_box .card_box .contentBx .color span:nth-child(4){
-  background: #e91e63;
 }
 
 .container_box .card_box .contentBx a{

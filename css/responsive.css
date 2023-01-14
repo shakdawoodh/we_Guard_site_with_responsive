@@ -518,29 +518,11 @@
 
   /* ACHIEVEMENTS SECTION END */
   
-  /* CONTACT PAGE SECTION START */
- 
-  .wegr_address_card{
-    gap: 15px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    /* background: #131313; */
-  }
-  .container_box .card_box{
-    position: relative;
-    width: 350px;
-    height: 450px;
-    background: #232323;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  /* CONTACT PAGE SECTION END */
+
 }
 
-@media (max-width:374px) {
+
+@media (max-width:375px) {
   .wegr_overflow_container {
     height: 390px;
     overflow: hidden;
@@ -556,27 +538,51 @@
   }
 
   /* HOME PAGE SECCTION END */
+  /* CONTACT PAGE SECTION STARTS */
+.wegr_address_card{
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: #131313; */
+}
 
-  /* CONTACT PAGE SECTION START */
- 
-  .wegr_address_card{
-    gap: 15px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    /* background: #131313; */
-  }
-  .container_box .card_box{
-    position: relative;
-    width: 310px;
-    height: 450px;
-    background: #232323;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  /* CONTACT PAGE SECTION END */
+.container_box .card_box{
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* CONTACT PAGE SECTION END */
+
+}
+@media (max-width:320px) {
+ /* CONTACT PAGE SECTION STARTS */
+ .wegr_address_card{
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: #131313; */
+}
+
+.container_box .card_box{
+  position: relative;
+  width: 310px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* CONTACT PAGE SECTION END */
 
 }
 
