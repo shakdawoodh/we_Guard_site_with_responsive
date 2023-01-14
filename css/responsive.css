@@ -518,6 +518,28 @@
 
   /* ACHIEVEMENTS SECTION END */
   
+  /* CONTACT PAGE SECTION STARTS */
+.wegr_address_card{
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: #131313; */
+}
+
+.container_box .card_box{
+  position: relative;
+  width: 384px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* CONTACT PAGE SECTION END */
+
 
 }
 
@@ -538,6 +560,7 @@
   }
 
   /* HOME PAGE SECCTION END */
+
   /* CONTACT PAGE SECTION STARTS */
 .wegr_address_card{
   gap: 15px;
@@ -561,6 +584,7 @@
 /* CONTACT PAGE SECTION END */
 
 }
+
 @media (max-width:320px) {
  /* CONTACT PAGE SECTION STARTS */
  .wegr_address_card{
