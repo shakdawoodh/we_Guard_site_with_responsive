@@ -1053,6 +1053,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-bottom: 10px;
   /* background: #131313; */
 }
 
@@ -1214,5 +1215,39 @@ body {
   transition-delay: 0.75s;
   
 }
-
 /* CONTACT US PAGE END */
+/* MAP SECTION STARTS */
+.weegr_map_section{
+  margin-top:12px;
+}
+/* MAP SECTION END  */
+
+/* FORM SECTION STARTS */
+.wegr_form_container{
+  margin-top:2px;
+}
+
+.wegr_form_box label,.wegr_form_box input{
+  display:block;
+ 
+}
+
+.wegr_form_box{
+  box-sizing: border-box;
+  width: 50%;
+  border-top: 5px solid var(--bg-color);
+}
+.form_input_section{
+  display: flex;
+  gap:8px;
+}
+.name_section{
+  width: 50%;
+}
+.email_section{
+  width: 50%;
+}
+input {
+  width: 100%;
+}
+/* FORM SECTION END */
