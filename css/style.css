@@ -1047,7 +1047,7 @@ body {
 
 /* ADDRESS CARD SECTION END */
 
-.wegr_address_card{
+.wegr_address_card {
   gap: 15px;
   display: flex;
   justify-content: center;
@@ -1057,11 +1057,11 @@ body {
   /* background: #131313; */
 }
 
-.container_box{
+.container_box {
   position: relative;
 }
 
-.container_box .card_box{
+.container_box .card_box {
   position: relative;
   width: 320px;
   height: 450px;
@@ -1070,7 +1070,7 @@ body {
   overflow: hidden;
 }
 
-.container_box .card_box:before{
+.container_box .card_box:before {
   content: '';
   position: absolute;
   top: 0;
@@ -1082,21 +1082,21 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.container_box .card_box:hover:before{
+.container_box .card_box:hover:before {
   clip-path: circle(300px at 80% -20%);
 }
 
-.container_box .card_box:after{
+.container_box .card_box:after {
   position: absolute;
   top: 30%;
   left: -20%;
   font-size: 12em;
   font-weight: 800;
   font-style: italic;
-  color: rgba(255,255,25,0.05)
+  color: rgba(255, 255, 25, 0.05)
 }
 
-.container_box .card_box .imgBx{
+.container_box .card_box .imgBx {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1106,15 +1106,15 @@ body {
   transition: 0.5s;
 }
 
-.container_box .card_box:hover .imgBx{
+.container_box .card_box:hover .imgBx {
   top: 0%;
   transform: translateY(0%);
-    
+
 }
 
-.container_box .card_box .imgBx i{
+.container_box .card_box .imgBx i {
   color: var(--white-color);
-  font-size:120px;
+  font-size: 120px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1122,7 +1122,7 @@ body {
   /* width: 270px; */
 }
 
-.container_box .card_box .contentBx{
+.container_box .card_box .contentBx {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -1132,43 +1132,46 @@ body {
   z-index: 10;
 }
 
-.container_box .card_box:hover .contentBx{
+.container_box .card_box:hover .contentBx {
   height: 210px;
 }
 
-.container_box .card_box .contentBx h2{
+.container_box .card_box .contentBx h2 {
   position: relative;
   font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
-  margin:15px 0px;
-  font-size:32px;
+  margin: 15px 0px;
+  font-size: 32px;
 }
 
-.container_box .card_box .contentBx .size, .container .card .contentBx .color {
+.container_box .card_box .contentBx .size,
+.container .card .contentBx .color {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px 20px;
-  transition: 0.5s;opacity: 0;
+  transition: 0.5s;
+  opacity: 0;
   visibility: hidden;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.container_box .card_box:hover .contentBx .size{
+.container_box .card_box:hover .contentBx .size {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.5s;
 }
 
-.container_box .card_box:hover .contentBx .color{
+.container_box .card_box:hover .contentBx .color {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.6s;
 }
 
-.container_box .card_box .contentBx .size h3, .container .card .contentBx .color h3{
+.container_box .card_box .contentBx .size h3,
+.container .card .contentBx .color h3 {
   color: #fff;
   font-weight: 300;
   font-size: 14px;
@@ -1178,7 +1181,7 @@ body {
   text-align: start;
 }
 
-.container_box .card_box .contentBx .size span{
+.container_box .card_box .contentBx .size span {
   width: 26px;
   height: 26px;
   text-align: center;
@@ -1194,7 +1197,7 @@ body {
   cursor: pointer;
 }
 
-.container_box .card_box .contentBx a{
+.container_box .card_box .contentBx a {
   display: inline-block;
   padding: 10px 20px;
   background: #fff;
@@ -1209,45 +1212,80 @@ body {
   margin-top: 0;
 }
 
-.container_box .card_box:hover .contentBx a{
+.container_box .card_box:hover .contentBx a {
   opacity: 1;
   transform: translateY(0px);
   transition-delay: 0.75s;
-  
+
 }
+
 /* CONTACT US PAGE END */
 /* MAP SECTION STARTS */
-.weegr_map_section{
-  margin-top:12px;
+.weegr_map_section {
+  margin-top: 12px;
 }
+
 /* MAP SECTION END  */
 
 /* FORM SECTION STARTS */
-.wegr_form_container{
-  margin-top:2px;
+.wegr_form_container {
+  margin-top: 32px;
 }
 
-.wegr_form_box label,.wegr_form_box input{
-  display:block;
- 
+.wegr_form_box label,
+.wegr_form_box input {
+  display: block;
+  margin:8px 0px;
+
 }
 
-.wegr_form_box{
+.wegr_form_box {
+  margin-bottom: 32px;
+  box-shadow: 0px 0px 7px 0px #c1c1c1;
+  padding: 32px;
+  border-radius: 8px;
+  overflow: hidden;
   box-sizing: border-box;
-  width: 50%;
-  border-top: 5px solid var(--bg-color);
-}
-.form_input_section{
-  display: flex;
-  gap:8px;
-}
-.name_section{
-  width: 50%;
-}
-.email_section{
-  width: 50%;
-}
-input {
   width: 100%;
+  border-top: 8px solid var(--bg-color);
+}
+
+.form_input_section {
+  display: flex;
+  gap:16px;
+
+}
+
+.name_section {
+  width: 50%;
+}
+
+.email_section {
+  width: 50%;
+}
+
+input {
+  border-radius:4px;
+  height:40px;
+  width: 100%;
+  border:1px solid var(--comma_color);
+  outline:none;
+}
+.messege_secrtion{
+  margin:32px 0px;
+}
+textarea{
+  border-radius:4px;
+  /* height:40px; */
+  width: 100%;
+  border:1px solid var(--comma_color);
+}
+.button_section button{
+  border-radius:4px;
+  padding: 8px 32px;
+  color: var(--white-color);
+  font-size:20px;
+  border: none;
+  background-image: var(--button-color);
 }
 /* FORM SECTION END */

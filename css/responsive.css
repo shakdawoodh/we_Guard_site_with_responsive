@@ -539,10 +539,32 @@
 }
 
 /* CONTACT PAGE SECTION END */
+/* FORM SECTION STARTS */
+.form_input_section {
+  display: flex;
+  gap:16px;
+  flex-direction: column;
 
+}
+input {
+  border-radius:4px;
+  height:40px;
+  width:200%;
+  border:1px solid var(--comma_color);
+  outline:none;
+}
+textarea{
+  border-radius:4px;
+  height:100px;
+  width: 100%;
+  border:1px solid var(--comma_color);
+}
+
+/* FORM SECTION END */
 
 }
 
+/* ==================================== */
 
 @media (max-width:375px) {
   .wegr_overflow_container {
@@ -582,8 +604,31 @@
 }
 
 /* CONTACT PAGE SECTION END */
+/* FORM SECTION STARTS */
+.form_input_section {
+  display: flex;
+  gap:16px;
+  flex-direction: column;
 
 }
+input {
+  border-radius:4px;
+  height:40px;
+  width:200%;
+  border:1px solid var(--comma_color);
+  outline:none;
+}
+textarea{
+  border-radius:4px;
+  height:100px;
+  width: 100%;
+  border:1px solid var(--comma_color);
+}
+
+/* FORM SECTION END */
+}
+
+/* ========================================= */
 
 @media (max-width:320px) {
  /* CONTACT PAGE SECTION STARTS */
@@ -594,7 +639,6 @@
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  /* background: #131313; */
 }
 
 .container_box .card_box{
@@ -607,7 +651,28 @@
 }
 
 /* CONTACT PAGE SECTION END */
+/* FORM SECTION STARTS */
+.form_input_section {
+  display: flex;
+  gap:16px;
+  flex-direction: column;
 
+}
+input {
+  border-radius:4px;
+  height:40px;
+  width:fit-content;
+  border:1px solid var(--comma_color);
+  outline:none;
+}
+textarea{
+  border-radius:4px;
+  height:100px;
+  width: 100%;
+  border:1px solid var(--comma_color);
+}
+
+/* FORM SECTION END */
 }
 
 /* RESPONSIVE SECTION END */
