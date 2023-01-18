@@ -1235,7 +1235,7 @@ body {
 .wegr_form_box label,
 .wegr_form_box input {
   display: block;
-  margin:8px 0px;
+  margin: 8px 0px;
 
 }
 
@@ -1252,7 +1252,7 @@ body {
 
 .form_input_section {
   display: flex;
-  gap:16px;
+  gap: 16px;
 
 }
 
@@ -1265,27 +1265,69 @@ body {
 }
 
 input {
-  border-radius:4px;
-  height:40px;
+  border-radius: 4px;
+  height: 40px;
   width: 100%;
-  border:1px solid var(--comma_color);
-  outline:none;
+  border: 1px solid var(--comma_color);
+  outline: none;
 }
-.messege_secrtion{
-  margin:32px 0px;
+
+.messege_secrtion {
+  margin: 32px 0px;
 }
-textarea{
-  border-radius:4px;
+
+textarea {
+  border-radius: 4px;
   /* height:40px; */
   width: 100%;
-  border:1px solid var(--comma_color);
+  border: 1px solid var(--comma_color);
 }
-.button_section button{
-  border-radius:4px;
+
+.button_section button {
+  border-radius: 4px;
   padding: 8px 32px;
   color: var(--white-color);
-  font-size:20px;
+  font-size: 20px;
   border: none;
   background-image: var(--button-color);
 }
+
 /* FORM SECTION END */
+
+/* ABOUT PAGE SECTION STARTS */
+.wegr_content {
+  width: 80%;
+  margin: 32px auto;
+}
+
+.content_section p {
+  color: var(--comma_color);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+
+.content_section2 {
+  margin-top: 32px;
+  color: var(--comma_color);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+.content_section2 h4{
+ margin:8px 0px;
+}
+.content_section3 {
+  margin-top: 32px;
+  color: var(--comma_color);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+.content_section3 h4{
+  margin:8px 0px;
+ }
+ .content_section3 ul {
+ margin-left:18px;
+}
+/* ABOUT PAGE SECTION END */
