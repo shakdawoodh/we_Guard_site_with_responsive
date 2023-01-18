@@ -1048,13 +1048,13 @@ body {
 /* ADDRESS CARD SECTION END */
 
 .wegr_address_card {
-  margin-top: -72px;
+  margin-top: 32px;
   gap: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin-bottom: 10px;
+  /* min-height: 100vh; */
+  margin-bottom:32px;
   /* background: #131313; */
 }
 
