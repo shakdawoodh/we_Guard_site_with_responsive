@@ -1048,6 +1048,7 @@ body {
 /* ADDRESS CARD SECTION END */
 
 .wegr_address_card {
+  margin-top: -72px;
   gap: 15px;
   display: flex;
   justify-content: center;
