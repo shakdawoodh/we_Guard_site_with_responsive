@@ -1352,6 +1352,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
 
 }
 .wegr_location_img{
