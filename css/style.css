@@ -1053,9 +1053,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
   margin-bottom:32px;
-  /* background: #131313; */
 }
 
 .container_box {
